@@ -19,8 +19,8 @@ public class MainTest {
     {
         assertEquals(1,main.Mult(2,5));
     }
-    /*  void division()
+     void division()
     {
         assertEquals(1,main.div(3,6));
-    }*/
+    }
 }

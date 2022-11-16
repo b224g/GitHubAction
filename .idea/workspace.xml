@@ -59,7 +59,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668626769509</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update gradle.yml">
+      <created>1668627182254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668627182254</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update test">
+      <created>1668629636782</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668629636782</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add diff">
+      <created>1668630463827</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668630463827</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,6 +96,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="update gradle.yml" />
+    <MESSAGE value="update test" />
+    <MESSAGE value="add diff" />
+    <option name="LAST_COMMIT_MESSAGE" value="add diff" />
   </component>
 </project>

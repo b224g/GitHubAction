@@ -3,15 +3,11 @@ name: Greeting from mona
 on: push
 
 jobs:
-  my-job:
-    name: My Job
-    runs-on: ubuntu-latest
-    steps:
-      name: Print a greeting
+  gradle:
+    strategy:
+      matrix:
+        os:[ubuntu-latest, macos-latest, windows-latest]
+        jdk:[8,11,17]
+      runs-on: ${{matrix.os}}
       env:
-        MY_VAR: Hi there! My name is 
-        FIRST_NAME: Mona
-        MiDDLE_NAME: The
-        LAST_NAME: Octocat
-      run: 
-        echo $:MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
+        JDK_VERSION: ${{matrix.jdk}}
